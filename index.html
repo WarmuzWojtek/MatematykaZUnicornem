@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematyka z Unicornem</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="game">
+    <header>
+        <div class="bcg"></div>
+        <h1>matematyka z unicornem</h1>
+    </header>
+    <main>
+        <section class="screen">
+            <button class="intro">rozpocznij swoją przygodę</button>
+            <div class="unicornText"></div>
+            <button class="yes hide">Tak</button>
+            <button class="no hide">Nie</button>
+            <button class="withPleasure hide">Z przyjemnością!</button>
+            <button class="nono hide">Nie, raczej nie</button>
+            <button class="choose hide">wybierz</button>
+        </section>
+        <section class="level hide">
+            <h2>co napotkasz na swojej drodze?</h2>
+            <div>
+                <p>Aby dotrzeć do Babycorn musisz pokonać trzy etapy zadań matematycznych: dodawanie, odejmowanie, a
+                    potem ostatni , najtrudniejszy etap, gdzie działania będą pomieszane. Wpisz w okienko liczbę, do
+                    której potrafisz liczyć i wciśnij enter..... Powodzenia!!!</p>
+                <div class="inputlevel">
+                    <label for="level">Podejmuję wyzwanie do liczby:</label>
+                    <input type="text" id="level">
+                </div>
+            </div>
+        </section>
+        <section class="chalenge hide">
+            <h2>wpisz wynik w okienko i naciśnij enter</h1>
+                <div class="container">
+                    <div class="first"></div>
+                    <div class="action">+</div>
+                    <div class="second"></div>
+                    <div class="wynik">=</div>
+                    <div class="score">
+                        <input type="text" id="wynik">
+                    </div>
+                </div>
+                <div class="comment"></div>
+                <div class="points">
+                    <p>Liczba zdobytych punktów to: <span></span> !!!</p>
+
+                </div>
+                <button class="start hide">kolejne zadanie</button>
+
+        </section>
+        <section class="reload hide">
+            <h2>W takim razie kończymy nasze spotkanie, ale pamiętaj, że jeśli się kiedyś zdecydujesz to czekam tu na
+                Ciebie</h2>
+            <button class="closeReload">zamknij</button>
+        </section>
+        <section class="anime1 hide">
+            <h2>brawo! pierwszy etap zaliczony!</h2>
+            <div class="rainbow1">
+                <img src="/img/pngwave (1).png" alt="" class="src">
+            </div>
+            <div class="emi1">
+            </div>
+            <button class="forward1">graj dalej</button>
+        </section>
+        <section class="anime2 hide">
+            <h2>Świetnie! Drugi etap z głowy!</h2>
+            <div class="rainbow1">
+                <img src="/img/pngwave (1).png" alt="" class="src">
+            </div>
+            <div class="emi2">
+            </div>
+            <button class="forward2">graj dalej</button>
+        </section>
+        <section class="anime3 hide">
+            <h2>Udało Ci się!</h2>
+            <div class="rainbow1">
+                <img src="/img/pngwave (1).png" alt="" class="src">
+            </div>
+            <div class="emi3">
+            </div>
+            <button class="forward4">obejrzyj finałową scenę</button>
+        </section>
+        <section class="anime4 hide">
+            <h2>Dziękujemy Emilko!!!</h2>
+            <div class="rainbow1">
+                <img src="/img/pngwave (1).png" alt="" class="src">
+            </div>
+            <div class="ucs">
+            </div>
+            <button class="forward3">Zagraj od nowa</button>
+        </section>
+        <button class="skip">Pomiń wstęp</button>
+
+
+
+
+    </main>
+    <section class="alert hide">Wpisz proszę prawidłową liczbę!!!
+        <button class="ok">OK</button>
+    </section>
+    <footer>&copy;RudiRudeboy</footer>
+    </div>
+    <!-- <div class="portrait">OBRÓĆ URZĄDZENIE</div> -->
+    <script src="/main.js"></script>
+</body>
+
+</html>
