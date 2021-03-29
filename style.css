@@ -13,7 +13,7 @@ body {
   font-family: "Acme", sans-serif;
   height: 100vh;
   width: 100%;
-  background-image: url(/img/horse-3395135_1920.jpg);
+  background-image: url(img/horse-3395135_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -249,15 +249,15 @@ h1 {
 
 @keyframes uniBgcImg {
   0% {
-    background-image: url(/img/haze1.png);
+    background-image: url(img/haze1.png);
   }
 
   55% {
-    background-image: url(/img/haze1.png);
+    background-image: url(img/haze1.png);
   }
 
   56% {
-    background-image: url(/img/haze2.png);
+    background-image: url(img/haze2.png);
   }
 
   100% {
@@ -576,7 +576,7 @@ section.anime4 {
   transform: translate(-50%, -50%);
   width: 70vw;
   height: 70vh;
-  background-image: url(/img/horse-3395135_1920.jpg);
+  background-image: url(img/horse-3395135_1920.jpg);
   background-size: cover;
   background-position: bottom;
   border: 3px solid white;
@@ -587,15 +587,15 @@ section.anime4 {
 }
 
 section.anime2 {
-  background-image: url(/img/horse-3395135_1920.jpg);
+  background-image: url(img/horse-3395135_1920.jpg);
 }
 
 section.anime3 {
-  background-image: url(/img/horse-3395135_1920.jpg);
+  background-image: url(img/horse-3395135_1920.jpg);
 }
 
 section.anime4 {
-  background-image: url(/img/brama1.jpg);
+  background-image: url(img/brama1.jpg);
 }
 
 .rainbow1 {
@@ -616,7 +616,7 @@ section.anime4 {
   position: absolute;
   left: 0vw;
   bottom: 2vh;
-  background-image: url(/img/wskaznik.png);
+  background-image: url(img/wskaznik.png);
   background-size: cover;
   transform: translate(-5vw, 0);
   width: 20vw;
@@ -633,7 +633,7 @@ section.anime4 {
 }
 
 .ucs {
-  background-image: url(/img/ucs.png);
+  background-image: url(img/ucs.png);
 
   animation: anime3 4s 2s linear reverse both, anime4 4s 6s linear infinite;
 }

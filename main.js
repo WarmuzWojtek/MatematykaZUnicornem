@@ -78,7 +78,7 @@ yesBtn.addEventListener("click", function () {
   nonoBtn.classList.remove("hide");
   nonoBtn.classList.add("show");
 
-  unicornText.style.backgroundImage = "url(/img/haze3.png)";
+  unicornText.style.backgroundImage = "url(img/haze3.png)";
 });
 
 // intro part 3
@@ -87,11 +87,11 @@ withPleasureBtn.addEventListener("click", function () {
   withPleasureBtn.classList.add("hide");
   nonoBtn.classList.remove("show");
   nonoBtn.classList.add("hide");
-  unicornText.style.backgroundImage = "url(/img/haze4.png)";
+  unicornText.style.backgroundImage = "url(img/haze4.png)";
   chooseBtn.classList.remove("hide");
   chooseBtn.classList.add("show");
   const bcgiChange = () => {
-    unicornText.style.backgroundImage = "url(/img/haze5.png)";
+    unicornText.style.backgroundImage = "url(img/haze5.png)";
   };
   window.setTimeout(bcgiChange, 8000);
 });
